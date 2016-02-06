@@ -117,6 +117,19 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
+				<!--
+				sudo mkdir /var/run/sbapp
+				sudo chown sbapp /var/run/sbapp
+
+				sudo touch /var/log/sbapp.log
+				sudo chown sbapp /var/log/sbapp.log
+
+				sudo ln -s ~/spring-boot-workshop-0.0.1-SNAPSHOT.jar /etc/init.d/sbapp
+				ls -l /etc/init.d/sbapp
+				-->
 			</plugin>
 		</plugins>
 	</build>
