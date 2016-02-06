@@ -1,0 +1,174 @@
+2016-02-05 09:49:38.421  INFO 23448 --- [main] com.meetup.UserServiceIntegrationTests   : Starting UserServiceIntegrationTests on ishiahm-lt127 with PID 23448 (D:\spring-boot-workshop\spring-boot-workshop\target\test-classes started by bhavesh.shah in D:\spring-boot-workshop\spring-boot-workshop)
+2016-02-05 09:49:38.422  INFO 23448 --- [main] com.meetup.UserServiceIntegrationTests   : The following profiles are active: dev
+2016-02-05 09:49:38.604  INFO 23448 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@53045c6c: startup date [Fri Feb 05 09:49:38 IST 2016]; root of context hierarchy
+2016-02-05 09:49:40.263  INFO 23448 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-02-05 09:49:41.235  INFO 23448 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$546cd703] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-05 09:49:42.320  INFO 23448 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9595 (http)
+2016-02-05 09:49:42.341  INFO 23448 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-02-05 09:49:42.343  INFO 23448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-02-05 09:49:42.557  INFO 23448 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-02-05 09:49:42.557  INFO 23448 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3963 ms
+2016-02-05 09:49:43.182  INFO 23448 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-02-05 09:49:43.185  INFO 23448 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'webServlet' to [/h2-console/*]
+2016-02-05 09:49:43.190  INFO 23448 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'metricFilter' to: [/*]
+2016-02-05 09:49:43.190  INFO 23448 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-02-05 09:49:43.191  INFO 23448 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-02-05 09:49:43.191  INFO 23448 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-02-05 09:49:43.191  INFO 23448 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-02-05 09:49:43.191  INFO 23448 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2016-02-05 09:49:43.192  INFO 23448 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2016-02-05 09:49:43.760  INFO 23448 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-02-05 09:49:43.781  INFO 23448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-02-05 09:49:44.005  INFO 23448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-02-05 09:49:44.008  INFO 23448 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-02-05 09:49:44.012  INFO 23448 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-02-05 09:49:44.223  INFO 23448 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-05 09:49:44.321  INFO 23448 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-02-05 09:49:44.463  INFO 23448 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-02-05 09:49:44.854  INFO 23448 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2016-02-05 09:49:44.868  INFO 23448 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2016-02-05 09:49:45.420  INFO 23448 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@53045c6c: startup date [Fri Feb 05 09:49:38 IST 2016]; root of context hierarchy
+2016-02-05 09:49:45.516  INFO 23448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public com.meetup.domain.User com.meetup.web.resource.UserResource.save(com.meetup.domain.User)
+2016-02-05 09:49:45.518  INFO 23448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET],produces=[application/json]}" onto public java.lang.Iterable<com.meetup.domain.User> com.meetup.web.resource.UserResource.finaAll()
+2016-02-05 09:49:45.519  INFO 23448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.meetup.web.RootController.home()
+2016-02-05 09:49:45.521  INFO 23448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-02-05 09:49:45.522  INFO 23448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-02-05 09:49:45.572  INFO 23448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-05 09:49:45.573  INFO 23448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-05 09:49:45.627  INFO 23448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-05 09:49:46.188  INFO 23448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+2016-02-05 09:49:46.696  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2016-02-05 09:49:46.697  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-05 09:49:46.698  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-05 09:49:46.702  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-05 09:49:46.703  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2016-02-05 09:49:46.703  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-05 09:49:46.705  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-05 09:49:46.706  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-05 09:49:46.707  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2016-02-05 09:49:46.709  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-05 09:49:46.710  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2016-02-05 09:49:46.711  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2016-02-05 09:49:46.711  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-05 09:49:46.713  INFO 23448 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-05 09:49:46.967  INFO 23448 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@53045c6c: startup date [Fri Feb 05 09:49:38 IST 2016]; root of context hierarchy] and template loader path [classpath:/templates/]
+2016-02-05 09:49:46.969  INFO 23448 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2016-02-05 09:49:46.995  WARN 23448 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2016-02-05 09:49:47.232  INFO 23448 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9595 (http)
+2016-02-05 09:49:47.371  INFO 23448 --- [main] com.meetup.UserServiceIntegrationTests   : Started UserServiceIntegrationTests in 10.209 seconds (JVM running for 11.576)
+2016-02-05 09:49:47.679  INFO 23448 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@53045c6c: startup date [Fri Feb 05 09:49:38 IST 2016]; root of context hierarchy
+2016-02-05 09:49:47.693  INFO 23448 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-02-05 09:49:47.694  INFO 23448 --- [Thread-5] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2016-02-05 09:49:47.698 ERROR 23448 --- [Thread-5] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table user if exists
+2016-02-05 09:49:47.699 ERROR 23448 --- [Thread-5] org.hibernate.tool.hbm2ddl.SchemaExport  : The database has been closed [90098-190]
+2016-02-05 09:49:47.700  INFO 23448 --- [Thread-5] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2016-02-06 00:09:30.014  INFO 10056 --- [main] com.meetup.UserServiceIntegrationTests   : Starting UserServiceIntegrationTests on ishiahm-lt127 with PID 10056 (D:\spring-boot-workshop\spring-boot-workshop\target\test-classes started by bhavesh.shah in D:\spring-boot-workshop\spring-boot-workshop)
+2016-02-06 00:09:30.015  INFO 10056 --- [main] com.meetup.UserServiceIntegrationTests   : The following profiles are active: dev
+2016-02-06 00:09:30.076  INFO 10056 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117159c0: startup date [Sat Feb 06 00:09:30 IST 2016]; root of context hierarchy
+2016-02-06 00:09:32.367  INFO 10056 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-02-06 00:09:33.345  INFO 10056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db1a2408] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-02-06 00:09:34.589  INFO 10056 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9595 (http)
+2016-02-06 00:09:34.611  INFO 10056 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-02-06 00:09:34.614  INFO 10056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-02-06 00:09:34.852  INFO 10056 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-02-06 00:09:34.853  INFO 10056 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4782 ms
+2016-02-06 00:09:35.500  INFO 10056 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-02-06 00:09:35.504  INFO 10056 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'webServlet' to [/h2-console/*]
+2016-02-06 00:09:35.509  INFO 10056 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'metricFilter' to: [/*]
+2016-02-06 00:09:35.510  INFO 10056 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-02-06 00:09:35.510  INFO 10056 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-02-06 00:09:35.510  INFO 10056 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-02-06 00:09:35.511  INFO 10056 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-02-06 00:09:35.511  INFO 10056 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2016-02-06 00:09:35.511  INFO 10056 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2016-02-06 00:09:36.374  INFO 10056 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-02-06 00:09:36.394  INFO 10056 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-02-06 00:09:36.729  INFO 10056 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-02-06 00:09:36.732  INFO 10056 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-02-06 00:09:36.735  INFO 10056 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-02-06 00:09:36.994  INFO 10056 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-02-06 00:09:37.117  INFO 10056 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-02-06 00:09:37.310  INFO 10056 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-02-06 00:09:37.744  INFO 10056 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2016-02-06 00:09:37.758  INFO 10056 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2016-02-06 00:09:38.350  INFO 10056 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117159c0: startup date [Sat Feb 06 00:09:30 IST 2016]; root of context hierarchy
+2016-02-06 00:09:38.465  INFO 10056 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public com.meetup.domain.User com.meetup.web.resource.UserResource.save(com.meetup.domain.User)
+2016-02-06 00:09:38.466  INFO 10056 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{id}],methods=[GET],produces=[application/json]}" onto public com.meetup.domain.User com.meetup.web.resource.UserResource.findOne(java.lang.Long)
+2016-02-06 00:09:38.468  INFO 10056 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[GET],produces=[application/json]}" onto public java.lang.Iterable<com.meetup.domain.User> com.meetup.web.resource.UserResource.finaAll()
+2016-02-06 00:09:38.469  INFO 10056 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.meetup.web.RootController.home()
+2016-02-06 00:09:38.471  INFO 10056 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-02-06 00:09:38.472  INFO 10056 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-02-06 00:09:38.520  INFO 10056 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-06 00:09:38.520  INFO 10056 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-06 00:09:38.582  INFO 10056 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-06 00:09:39.152  INFO 10056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : jolokia: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+2016-02-06 00:09:39.720  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2016-02-06 00:09:39.722  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-06 00:09:39.723  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2016-02-06 00:09:39.727  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-06 00:09:39.728  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2016-02-06 00:09:39.729  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-06 00:09:39.730  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-06 00:09:39.730  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-06 00:09:39.733  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2016-02-06 00:09:39.733  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-06 00:09:39.734  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-06 00:09:39.735  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-06 00:09:39.737  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2016-02-06 00:09:39.738  INFO 10056 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-02-06 00:09:40.079  INFO 10056 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117159c0: startup date [Sat Feb 06 00:09:30 IST 2016]; root of context hierarchy] and template loader path [classpath:/templates/]
+2016-02-06 00:09:40.082  INFO 10056 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2016-02-06 00:09:40.119  WARN 10056 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2016-02-06 00:09:40.382  INFO 10056 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9595 (http)
+2016-02-06 00:09:40.391  INFO 10056 --- [main] com.meetup.UserServiceIntegrationTests   : Started UserServiceIntegrationTests in 11.092 seconds (JVM running for 13.924)
+2016-02-06 00:09:40.772  INFO 10056 --- [Thread-5] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117159c0: startup date [Sat Feb 06 00:09:30 IST 2016]; root of context hierarchy
+2016-02-06 00:09:40.783  INFO 10056 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-02-06 00:09:40.784  INFO 10056 --- [Thread-5] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2016-02-06 00:09:40.792 ERROR 10056 --- [Thread-5] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000231: Schema export unsuccessful
+
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-190]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.190.jar:1.4.190]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.190.jar:1.4.190]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.190.jar:1.4.190]
+	at org.h2.message.DbException.get(DbException.java:144) ~[h2-1.4.190.jar:1.4.190]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1468) ~[h2-1.4.190.jar:1.4.190]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1443) ~[h2-1.4.190.jar:1.4.190]
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:446) ~[h2-1.4.190.jar:1.4.190]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at org.apache.tomcat.jdbc.pool.ProxyConnection.invoke(ProxyConnection.java:126) ~[tomcat-jdbc-8.0.30.jar:na]
+	at org.apache.tomcat.jdbc.pool.JdbcInterceptor.invoke(JdbcInterceptor.java:108) ~[tomcat-jdbc-8.0.30.jar:na]
+	at org.apache.tomcat.jdbc.pool.DisposableConnectionFacade.invoke(DisposableConnectionFacade.java:81) ~[tomcat-jdbc-8.0.30.jar:na]
+	at com.sun.proxy.$Proxy77.getAutoCommit(Unknown Source) ~[na:na]
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:52) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:52) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:368) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:319) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:315) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionFactoryImpl.close(SessionFactoryImpl.java:1366) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.internal.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:370) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:388) [spring-orm-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:541) [spring-orm-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at com.sun.proxy.$Proxy83.close(Unknown Source) [na:na]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:464) [spring-orm-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:262) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:972) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:979) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1006) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:982) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:901) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+
+2016-02-06 00:09:40.795  INFO 10056 --- [Thread-5] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
